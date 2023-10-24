@@ -281,8 +281,22 @@ body {
 }
 
 .product-box img{
-    width: 120px;
-    margin-left: 66px;
-    margin-top: 40px;
+    max-width: 130px;
+    height: 150px;
+    /* margin-left: 66px; */
+    margin-top: 60px;
     justify-content: center;
+    display: inline-block;
+}
+
+.detail-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.detail-box2 span{
+    color: #db4566;
 }
