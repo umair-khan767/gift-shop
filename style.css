@@ -283,20 +283,31 @@ body {
 .product-box img{
     max-width: 130px;
     height: 150px;
-    /* margin-left: 66px; */
     margin-top: 60px;
     justify-content: center;
-    display: inline-block;
 }
 
 .detail-box2{
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 10px;
 }
 
 .detail-box2 span{
     color: #db4566;
+}
+
+.product-btn .btn{
+  color: #ffffff;
+  border: 1px solid #db4566;
+  border-radius: 5px;
+  background-color: #db4566;
+}
+
+.product-btn .btn:hover{
+  color: #db4566;
+  background-color: #ffffff;
 }
